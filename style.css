@@ -1,51 +1,50 @@
 body {
+    background-image: url('https://images.unsplash.com/photo-1522335146626-716b1a4f48a5');
+    background-size: cover;
+    background-position: center center;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.form-container {
-    background:black;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 400px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-label {
+    color: Blue;
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: black;(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;(0, 0, 0, 0.5);
+  }
+  label {
     display: block;
-    margin: 10px 0 5px;
-    color: #555;
-}
-
-input {
-    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  input {
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
     border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
+  }
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid green;
+    padding: 10px;
+    text-align: left;
+  }
